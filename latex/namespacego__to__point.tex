@@ -1,0 +1,116 @@
+\hypertarget{namespacego__to__point}{}\doxysection{go\+\_\+to\+\_\+point Namespace Reference}
+\label{namespacego__to__point}\index{go\_to\_point@{go\_to\_point}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a36304a9f313b0579f7fc69fa01695524}\label{namespacego__to__point_a36304a9f313b0579f7fc69fa01695524}} 
+def {\bfseries clbk\+\_\+odom} (msg)
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a31ee48e5cae36821049b572a96b7c8be}\label{namespacego__to__point_a31ee48e5cae36821049b572a96b7c8be}} 
+def {\bfseries change\+\_\+state} (state)
+\item 
+def \mbox{\hyperlink{namespacego__to__point_ac688bb56fa84763ea2edefc30cae032a}{normalize\+\_\+angle}} (angle)
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a9c3011a3065fcbefcc1c5ad8c9979669}\label{namespacego__to__point_a9c3011a3065fcbefcc1c5ad8c9979669}} 
+def {\bfseries fix\+\_\+yaw} (des\+\_\+pos)
+\item 
+\mbox{\Hypertarget{namespacego__to__point_ac8579665c0fbf665f734476554fac37d}\label{namespacego__to__point_ac8579665c0fbf665f734476554fac37d}} 
+def {\bfseries go\+\_\+straight\+\_\+ahead} (des\+\_\+pos)
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a4a406386ca62830c19c93949e923f7bd}\label{namespacego__to__point_a4a406386ca62830c19c93949e923f7bd}} 
+def {\bfseries fix\+\_\+final\+\_\+yaw} (des\+\_\+yaw)
+\item 
+\mbox{\Hypertarget{namespacego__to__point_ac2587220a4ac9c845bc9c5b0b45d5835}\label{namespacego__to__point_ac2587220a4ac9c845bc9c5b0b45d5835}} 
+def {\bfseries done} ()
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a2203d17b7e563bee20ed4c988548df45}\label{namespacego__to__point_a2203d17b7e563bee20ed4c988548df45}} 
+def {\bfseries go\+\_\+to\+\_\+point} (goal)
+\item 
+\mbox{\Hypertarget{namespacego__to__point_ab92bd6db1ec323a4d795ed6cb40aebe1}\label{namespacego__to__point_ab92bd6db1ec323a4d795ed6cb40aebe1}} 
+def {\bfseries main} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a91dbaab25e6080f6b5dbf82cac6ce75c}\label{namespacego__to__point_a91dbaab25e6080f6b5dbf82cac6ce75c}} 
+{\bfseries position\+\_\+} = Point()
+\item 
+\mbox{\Hypertarget{namespacego__to__point_acafa50d4a3b16d8605fa03a28b48e828}\label{namespacego__to__point_acafa50d4a3b16d8605fa03a28b48e828}} 
+{\bfseries pose\+\_\+} = Pose()
+\item 
+\mbox{\Hypertarget{namespacego__to__point_ae444f19eb2019982432760ace036ce03}\label{namespacego__to__point_ae444f19eb2019982432760ace036ce03}} 
+int {\bfseries yaw\+\_\+} = 0
+\item 
+\mbox{\Hypertarget{namespacego__to__point_aa2d0ef255bcf5d5faf9ca2764730fb17}\label{namespacego__to__point_aa2d0ef255bcf5d5faf9ca2764730fb17}} 
+int {\bfseries state\+\_\+} = 0
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a57b4090d0abcbcf0bfa2bcb9329d3036}\label{namespacego__to__point_a57b4090d0abcbcf0bfa2bcb9329d3036}} 
+{\bfseries pub\+\_\+} = None
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a03b48b610dbd224a38eb226c1b2ba23d}\label{namespacego__to__point_a03b48b610dbd224a38eb226c1b2ba23d}} 
+{\bfseries desired\+\_\+position\+\_\+} = Point()
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a2fd68a76b8583598a4bceccdeae5d73b}\label{namespacego__to__point_a2fd68a76b8583598a4bceccdeae5d73b}} 
+{\bfseries z}
+\item 
+\mbox{\Hypertarget{namespacego__to__point_ac115eebd2e2cccfd63512fec9d40cf1c}\label{namespacego__to__point_ac115eebd2e2cccfd63512fec9d40cf1c}} 
+bool {\bfseries success} = False
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a67f95834f0959feb3facd17bc7fa2b38}\label{namespacego__to__point_a67f95834f0959feb3facd17bc7fa2b38}} 
+int {\bfseries yaw\+\_\+precision\+\_\+} = math.\+pi / 9
+\item 
+\mbox{\Hypertarget{namespacego__to__point_af74ccf49164d0478ca8343e2031d5813}\label{namespacego__to__point_af74ccf49164d0478ca8343e2031d5813}} 
+int {\bfseries yaw\+\_\+precision\+\_\+2\+\_\+} = math.\+pi / 90
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a6a1e4eb20ebd4fce0fc56b0ebfd7a8d5}\label{namespacego__to__point_a6a1e4eb20ebd4fce0fc56b0ebfd7a8d5}} 
+float {\bfseries dist\+\_\+precision\+\_\+} = 0.\+1
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a524106fc7667a0927951dfd89d52d6a7}\label{namespacego__to__point_a524106fc7667a0927951dfd89d52d6a7}} 
+float {\bfseries kp\+\_\+a} = -\/3.\+0
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a7bc498652ca66932e704e738b50c297b}\label{namespacego__to__point_a7bc498652ca66932e704e738b50c297b}} 
+float {\bfseries kp\+\_\+d} = 0.\+2
+\item 
+\mbox{\Hypertarget{namespacego__to__point_acb4e14986fafe5cb73bb8ad0c178869d}\label{namespacego__to__point_acb4e14986fafe5cb73bb8ad0c178869d}} 
+float {\bfseries ub\+\_\+a} = 0.\+6
+\item 
+\mbox{\Hypertarget{namespacego__to__point_afecad4058844db05d8321199e25b4498}\label{namespacego__to__point_afecad4058844db05d8321199e25b4498}} 
+float {\bfseries lb\+\_\+a} = -\/0.\+5
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a16c473b9e717200c483d18e66b48152a}\label{namespacego__to__point_a16c473b9e717200c483d18e66b48152a}} 
+float {\bfseries ub\+\_\+d} = 0.\+6
+\item 
+\mbox{\Hypertarget{namespacego__to__point_a64583fad586a7212c40613ec1c3e7c69}\label{namespacego__to__point_a64583fad586a7212c40613ec1c3e7c69}} 
+{\bfseries act\+\_\+s} = None
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}.. module:: go_to_point
+:platform: Unix
+:synopsis: Python module for piloting the robot to the target
+.. moduleauthor:: Tahmineh Tabarestani  <tahmineh.tbi@gmail.com>
+ROS node for driving a robot to a specific point
+Subscribes to:
+/odom topic where the simulator publishes the robot position
+Publishes to:
+/cmd_vel the desired robot position
+Service :
+/go_to_point to start the robot motion.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacego__to__point_ac688bb56fa84763ea2edefc30cae032a}\label{namespacego__to__point_ac688bb56fa84763ea2edefc30cae032a}} 
+\index{go\_to\_point@{go\_to\_point}!normalize\_angle@{normalize\_angle}}
+\index{normalize\_angle@{normalize\_angle}!go\_to\_point@{go\_to\_point}}
+\doxysubsubsection{\texorpdfstring{normalize\_angle()}{normalize\_angle()}}
+{\footnotesize\ttfamily def go\+\_\+to\+\_\+point.\+normalize\+\_\+angle (\begin{DoxyParamCaption}\item[{}]{angle }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Function for normalizing the angle between -pi and pi.
+Args:
+    angle(Float): the input angle
+Returns:
+    angle(Float): the normalized angle.
+\end{DoxyVerb}
+ 
